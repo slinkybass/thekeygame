@@ -1,0 +1,281 @@
+{
+    "levels": [
+        {
+            "size_x": "1",
+            "size_y": "3",
+            "var": "0",
+            "cols": [
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "elements": {
+                        "start": true
+                    }
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 1
+                    }
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 2
+                    },
+                    "elements": {
+                        "end": true
+                    },
+                    "actions": {
+                        "check": 0
+                    }
+                }
+            ]
+        },
+        {
+            "size_x": "1",
+            "size_y": "4",
+            "var": "0",
+            "cols": [
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "elements": {
+                        "start": true
+                    }
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 1
+                    },
+                    "actions": {
+                        "sum": 1
+                    }
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 2
+                    },
+                    "actions": {
+                        "sum": 2
+                    }
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 3
+                    },
+                    "elements": {
+                        "end": true
+                    },
+                    "actions": {
+                        "check": 3
+                    }
+                }
+            ]
+        },
+        {
+            "size_x": "2",
+            "size_y": "3",
+            "var": "5",
+            "cols": [
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "actions": {
+                        "subs": 2
+                    }
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 1
+                    },
+                    "actions": {
+                        "sum": 1
+                    },
+                    "options": {
+                        "left": true,
+                        "right": true,
+                        "up": true,
+                        "down": true
+                    }
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 2
+                    },
+                    "elements": {
+                        "end": true
+                    },
+                    "actions": {
+                        "check": 3
+                    }
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 0
+                    },
+                    "elements": {
+                        "start": true
+                    }
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "actions": {
+                        "subs": 2
+                    },
+                    "options": {
+                        "left": true,
+                        "right": true,
+                        "up": true,
+                        "down": true
+                    }
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 2
+                    }
+                }
+            ]
+        },
+        {
+            "size_x": "3",
+            "size_y": "5",
+            "var": "0",
+            "cols": [
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "elements": {
+                        "start": true
+                    }
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 1
+                    },
+                    "actions": {
+                        "sum": 1
+                    }
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 2
+                    },
+                    "options": {
+                        "left": true,
+                        "right": true,
+                        "up": true,
+                        "down": true
+                    }
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 3
+                    }
+                },
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 4
+                    }
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 0
+                    }
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 1
+                    }
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 2
+                    }
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 3
+                    },
+                    "options": {
+                        "left": true,
+                        "right": true,
+                        "up": true,
+                        "down": true
+                    },
+                    "actions": {
+                        "subs": 1
+                    }
+                },
+                {
+                    "position": {
+                        "x": 1,
+                        "y": 4
+                    }
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 0
+                    }
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 1
+                    }
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 2
+                    }
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 3
+                    }
+                },
+                {
+                    "position": {
+                        "x": 2,
+                        "y": 4
+                    },
+                    "elements": {
+                        "end": true
+                    },
+                    "actions": {
+                        "check": 3
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+div {
+    box-sizing: border-box;
+    float: left;
+}
+div.frame_container {
+    width: 100%;
+    height: 100%;
+}
+div.frame_container div.controls_container {
+    width: 100%;
+    height: 10%;
+}
+div.frame_container div.controls_container div.var {
+    width: 25%;
+    height: 100%;
+    background-color: #b92c28;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+div.frame_container div.controls_container div.start_button {
+    width: 50%;
+    height: 100%;
+    background-color: #57a957;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
+div.frame_container div.controls_container div.console {
+    width: 25%;
+    height: 100%;
+    background-color: #111111;
+    font-family: 'VT323', monospace;
+    font-size: 12px;
+    color: #FFFFFF;
+    overflow-y: scroll;
+}
+div.frame_container div.controls_container div.var:before {
+    content: "VAR:";
+}
+div.frame_container div.controls_container div.start_button:before {
+    content: "START LEVEL";
+}
+div.frame_container div.controls_container div.console p {
+    margin: 0;
+}
+div.frame_container div.controls_container div.console p:before {
+    content: "> ";
+}
+div.frame_container div.level_container {
+    width: 100%;
+    height: 90%;
+    background-position: top left;
+    background-repeat: repeat;
+    background-image: url("img/bak.png");
+}
+div.frame_container div.level_container div.row_container {
+    min-height: 1px;
+    position: relative;
+    width: 100%;
+}
+div.frame_container div.level_container div.row_container div.col_container {
+    min-height: 1px;
+    position: relative;
+    padding: 10px;
+}
+div.frame_container div.level_container div.row_container div.col_container div.col_options {
+    width: 20%;
+    height: 100%;
+    padding: 15px 0px 15px 15px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: url("img/bak_left.png");
+}
+div.frame_container div.level_container div.row_container div.col_container div.col_actions {
+    width: 60%;
+    height: 100%;
+    padding: 15px;
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+    background-position: center center;
+    background-image: url("img/bak_center.png");
+}
+div.frame_container div.level_container div.row_container div.col_container div.col_elements {
+    width: 20%;
+    height: 100%;
+    padding: 15px 15px 15px 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("img/bak_right.png");
+}
+div.frame_container div.level_container div.row_container div.col_container div.col_options div.option {
+    width: 50%;
+    height: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+div.frame_container div.level_container div.row_container div.col_container div.col_actions div.action {
+    width: 100%;
+    height: 100%;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+}
+div.frame_container div.level_container div.row_container div.col_container div.col_elements div.element {
+    width: 50%;
+    height: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+div.frame_container div.level_container div.row_container div.col_container div.col_options div.option[data-option="left"] {
+    background-image: url('img/left.png');
+}
+div.frame_container div.level_container div.row_container div.col_container div.col_options div.option[data-option="right"] {
+    background-image: url('img/right.png');
+}
+div.frame_container div.level_container div.row_container div.col_container div.col_options div.option[data-option="up"] {
+    background-image: url('img/up.png');
+}
+div.frame_container div.level_container div.row_container div.col_container div.col_options div.option[data-option="down"] {
+    background-image: url('img/down.png');
+}
+div.frame_container div.level_container div.row_container div.col_container div.col_options div.option[data-active="true"] {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+div.frame_container div.level_container div.row_container div.col_container div.col_elements div.element[data-element="start"] {
+    background-image: url('img/key.png');
+}
+div.frame_container div.level_container div.row_container div.col_container div.col_elements div.element[data-element="end"] {
+    background-image: url('img/chest.png');
+}
